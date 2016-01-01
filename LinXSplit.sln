@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinXSplit", "LinXSplit\LinXSplit.vcxproj", "{900111F8-7D0C-4E8A-A1EF-81478BF42DF4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A7EBEA5C-A262-4CB0-85F0-A3C0F1AEE5F6} = {A7EBEA5C-A262-4CB0-85F0-A3C0F1AEE5F6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libH264Encoder", "x264\x264.vcxproj", "{A7EBEA5C-A262-4CB0-85F0-A3C0F1AEE5F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{900111F8-7D0C-4E8A-A1EF-81478BF42DF4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{900111F8-7D0C-4E8A-A1EF-81478BF42DF4}.Debug|Win32.Build.0 = Debug|Win32
+		{900111F8-7D0C-4E8A-A1EF-81478BF42DF4}.Release|Win32.ActiveCfg = Release|Win32
+		{900111F8-7D0C-4E8A-A1EF-81478BF42DF4}.Release|Win32.Build.0 = Release|Win32
+		{A7EBEA5C-A262-4CB0-85F0-A3C0F1AEE5F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7EBEA5C-A262-4CB0-85F0-A3C0F1AEE5F6}.Debug|Win32.Build.0 = Debug|Win32
+		{A7EBEA5C-A262-4CB0-85F0-A3C0F1AEE5F6}.Release|Win32.ActiveCfg = Release|Win32
+		{A7EBEA5C-A262-4CB0-85F0-A3C0F1AEE5F6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

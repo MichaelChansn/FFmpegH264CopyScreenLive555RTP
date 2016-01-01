@@ -1,0 +1,2 @@
+1.因为我的VLD没有安装好。故里面配置的绝对地址，大家可以改掉，或者直接注释掉vld包含
+2.如果有人对于libH264Encoder项目编译不过,可以去yasm官网下载yasm.xxx.exe,然后改名为:yasm.exe,并将其放到vs的ide目录,如"C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE"
